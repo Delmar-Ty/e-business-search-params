@@ -26,3 +26,5 @@ for (i = 0; i < imgIDArray.length; i++) {
 
 document.querySelector('.add-to-cart').addEventListener('click', addToCart);
 document.querySelector('.checkout-btn').addEventListener('click', function() {location.reload();});
+
+console.log(location.search);
